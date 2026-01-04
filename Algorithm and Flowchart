@@ -1,0 +1,56 @@
+Algorithm:
+Text-Based Question Answering
+1)Start
+2)Store the input text as a string
+3)Store predefined question templates
+4)Accept a question from the user
+5)Compare the question with stored templates
+6)If a match is found:
+7)Generate corresponding text pattern
+8)Apply the text pattern to the input text
+9)Extract the longest matching phrase
+10)Display the extracted phrase as the answer
+11)If no match is found, display “No answer found”
+12)Stop
+
+Flowchart:
+ ┌───────────┐
+ │   Start   │
+ └─────┬─────┘
+       │
+ ┌─────▼─────┐
+ │ Store Text│
+ └─────┬─────┘
+       │
+ ┌─────▼────────────┐
+ │ Store Templates  │
+ └─────┬────────────┘
+       │
+ ┌─────▼─────┐
+ │ Input Qn  │
+ └─────┬─────┘
+       │
+ ┌─────▼────────────┐
+ │ Match Template ? │
+ └─────┬─────┬──────┘
+       │Yes  │No
+       │     │
+ ┌─────▼───┐ ┌───────────────┐
+ │ Search  │ │ Display "No   │
+ │ in Text │ │ Answer Found" │
+ └─────┬───┘ └───────────────┘
+       │
+ ┌─────▼─────────┐
+ │ Extract Answer│
+ └─────┬─────────┘
+       │
+ ┌─────▼─────┐
+ │ Display   │
+ │ Answer    │
+ └─────┬─────┘
+       │
+ ┌─────▼─────┐
+ │   Stop    │
+ └───────────┘
+
+
